@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <head>
 
 <meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cloud Computing Lab Apply Web</title>
@@ -75,7 +74,7 @@
 				                        	<input type="text" name="sex" placeholder="性别" class="form-last-name form-control" >
 				                        </div>
 				                        <div class="form-group">
-				                        	<label class="sr-only" for="majors">专业班级</label>
+				                        	<label class="sr-only" for="majors">专业/班级</label>
 				                        	<input type="text" name="majors" placeholder="专业班级" class="form-last-name form-control" >
 				                        </div>
 										<div class="form-group">
@@ -83,8 +82,8 @@
 				                        	<input type="text" name="qq" placeholder="QQ" class="form-last-name form-control" >
 				                        </div>
 										<div class="form-group">
-				                        	<label class="sr-only" for="phone">联系电话</label>
-				                        	<input type="text" name="phone" placeholder="联系电话" class="form-last-name form-control" >
+				                        	<label class="sr-only" for="phone">电话</label>
+				                        	<input type="text" name="phone" placeholder="电话" class="form-last-name form-control" >
 				                        </div>
 										<div class="form-group">
 				                        	<label class="sr-only" for="instructor">辅导员姓名</label>
@@ -106,12 +105,12 @@
 		                            </div>
 		                            <div class="form-bottom">
 				                        <div class="form-group">
-				                        	<label class="sr-only" for="math">高考数学分数</label>
-				                        	<input type="text" name="math" placeholder="高考数学分数" class="form-email form-control">
+				                        	<label class="sr-only" for="math">高考数学成绩</label>
+				                        	<input type="text" name="math" placeholder="高考数学成绩" class="form-email form-control">
 				                        </div>
 				                        <div class="form-group">
-				                    		<label class="sr-only" for="english">高考英语分数</label>
-				                        	<input type="text" name="english" placeholder="高考英语分数" class="form-password form-control" >
+				                    		<label class="sr-only" for="english">高考英语成绩</label>
+				                        	<input type="text" name="english" placeholder="高考英语成绩" class="form-password form-control" >
 				                        </div>
 				                        <div class="form-group">
 				                        	<label class="sr-only" for="codeExp">是否有编程经验</label>
@@ -143,12 +142,12 @@
 		                            </div>
 		                            <div class="form-bottom">
 				                    	<div class="form-group">
-				                        	<label class="sr-only" for="interest">长（短）期目标</label>
-				                        	<textarea name="target" style="resize:none" placeholder="长（短）期目标" class="form-about-yourself form-control" ></textarea>
+				                        	<label class="sr-only" for="interest">长期或短期目标</label>
+				                        	<textarea name="target" style="resize:none" placeholder="长期或短期目标" class="form-about-yourself form-control" ></textarea>
 				                        </div>
 										<div class="form-group">
 				                        	<label class="sr-only" for="evalution">为什么想加入我们，以及对我们的期待</label>
-				                        	<textarea name="expect" style="resize:none" placeholder="为什么想加入我们，以及对我们的期待" class="form-about-yourself form-control" ></textarea>
+				                        	<textarea name="expect" style="resize:none" placeholder="为什么加入我们，以及对我们的期待" class="form-about-yourself form-control" ></textarea>
 				                        </div>
 				                        <button type="button" class="btn btn-previous">Previous</button>
 				                        <button type="submit" class="btn">Send to us!</button>
